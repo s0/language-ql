@@ -10,10 +10,9 @@ firstLineRegex: [
   '^import\s[a-z]+\\r?\\n'
 ]
 
-comments:
-  start: '// '
 
 scopes:
+  # Keywords
   'AND': 'keyword.control'
   'ANY': 'keyword.control'
   'AS': 'keyword.control'
@@ -62,3 +61,49 @@ scopes:
   'THIS': 'keyword.control'
   'TRUE': 'keyword.control'
   'WHERE': 'keyword.control'
+
+  # operators
+  'LT': 'keyword.operator'
+  'LE': 'keyword.operator'
+  'EQ': 'keyword.operator'
+  'GT': 'keyword.operator'
+  'GE': 'keyword.operator'
+  'UNDERSCORE': 'keyword.operator'
+  'MINUS': 'keyword.operator'
+  'COMMA': 'keyword.operator'
+  'NE': 'keyword.operator'
+  'SEMI': 'keyword.operator'
+  'SLASH': 'keyword.operator'
+  'DOT': 'keyword.operator'
+  'RANGE': 'keyword.operator'
+  'OPAR': 'keyword.operator'
+  'CPAR': 'keyword.operator'
+  'OBLOCK': 'keyword.operator'
+  'CBLOCK': 'keyword.operator'
+  'OBRACE': 'keyword.operator'
+  'CBRACE': 'keyword.operator'
+  'STAR': 'keyword.operator'
+  'MOD': 'keyword.operator'
+  'PLUS': 'keyword.operator'
+  'BAR': 'keyword.operator'
+  'SELECTION': 'keyword.operator'
+
+  # others
+  'comment': 'comment'
+
+  'literal > TRUE, literal > FALSE': 'constant.language'
+  'literal > int, literal > float': 'constant.numeric'
+  'literal > string': 'string.quoted.double'
+
+  'head > var_decls > var_decl > simpleId': 'variable.parameter'
+
+  'variable > varname': 'variable.other'
+  'variable > THIS, variable > RESULT': 'variable.language'
+
+  'annotation': 'storage.modifier'
+
+  'type': 'entity.name.type'
+
+  'predicateName, predicateRef': 'entity.name.function'
+
+  'moduleId': 'entity.name.section'
