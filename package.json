@@ -1,12 +1,12 @@
 {
   "name": "language-ql",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "description": "Atom grammar for Semmle QL",
   "keywords": [
     "tree-sitter",
     "semmle-ql"
   ],
-  "repository": "https://github.com/samlanning/language-ql",
+  "repository": "git@github.com:samlanning/language-ql.git",
   "author": "Sam Lanning <sam@samlanning.com>",
   "license": "MIT",
   "dependencies": {
