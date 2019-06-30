@@ -1,0 +1,8 @@
+{
+  "name": "language-ql",
+  "version": "0.0.1",
+  "description": "Atom grammar for Semmle QL",
+  "repository": "https://github.com/samlanning/language-ql",
+  "author": "Sam Lanning <sam@samlanning.com>",
+  "license": "MIT"
+}
