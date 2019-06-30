@@ -1,6 +1,6 @@
 {
   "name": "language-ql",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Atom grammar for Semmle QL",
   "keywords": [
     "tree-sitter",
