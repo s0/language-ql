@@ -95,7 +95,7 @@ scopes:
   'literal > int, literal > float': 'constant.numeric'
   'literal > string': 'string.quoted.double'
 
-  'head > var_decls > var_decl > simpleId': 'variable.parameter'
+  'var_decl > simpleId': 'variable.parameter'
 
   'variable > varname': 'variable.other'
   'variable > THIS, variable > RESULT': 'variable.language'
