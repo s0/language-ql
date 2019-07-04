@@ -102,7 +102,7 @@ scopes:
 
   'annotation': 'storage.modifier'
 
-  'type': 'entity.name.type'
+  'type, classname': 'entity.name.type'
 
   'predicateName, predicateRef': 'entity.name.function'
 
